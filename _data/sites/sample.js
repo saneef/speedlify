@@ -1,11 +1,8 @@
 module.exports = {
-	name: "Sample", // optional, falls back to object key
+	name: "Websites", // optional, falls back to object key
 	description: "The default sites that get tested",
 	options: {
-		runs: 1,
-		frequency: 1, // (in minutes)
+		frequency: 60 * 48, // (in minutes), 23 hours
 	},
-	urls: [
-		"https://www.speedlify.dev/"
-	]
+	urls: ["https://www.saneef.com/"],
 };
